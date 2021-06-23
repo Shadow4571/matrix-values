@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Matrix</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="js/index.js"></script>
+    <script src="js/Matrix.js"></script>
+</head>
+<body>
+    <div class="matrix_box">
+        <div class="matrix" id="matrix_element">
+
+        </div>
+        <div class="box">
+            <input class="input_experts" onchange="changeExpertsCount(this.value)">
+        </div>
+        <div class="box">
+            <button id="process_button" onclick="processResult()">CALCULATE</button>
+        </div>
+        <div class="info_box">
+            <p class="message" id="info_message"></p>
+        </div>
+    </div>
+    <div id="result_box" style="display: none">
+        <div class="result_pair">
+            <div class="result">
+                <h1 style="margin-top: 70px">Коалиции:</h1>
+                <h2 style="margin-top: 50px; font-size: 36pt" id="result_coalition">3</h2>
+            </div>
+            <div class="result">
+                <h1 style="margin-top: 70px">Согласованность:</h1>
+                <h2 style="margin-top: 50px; font-size: 36pt" id="result_consistency">0.33</h2>
+            </div>
+        </div>
+        <button class="box_button" id="ok_button" onclick="closeResultBox()">OK</button>
+    </div>
+</body>
+</html>

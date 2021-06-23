@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Calibri, serif;
+    font-size: 18pt;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #181820;
+}
+
+.matrix_box {
+    margin: 50px auto auto;
+    height: 850px;
+    width: 600px;
+    font-size: 0;
+}
+
+.matrix_element {
+    width: 0;
+    height: 0;
+    display: inline-block;
+    background-color: #252733;
+}
+
+.matrix_element_input {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    size: auto;
+    color: white;
+    background-color: #252733;
+    box-sizing: content-box;
+    outline: #1c1d26 solid 2px;
+    outline-offset: -1px;
+}
+
+.matrix_element_input:focus {
+    color: white;
+    background-color: #6d5dd3;
+    outline: none;
+}
+
+.matrix {
+    width: 600px;
+    height: 600px;
+    background-color: #1c1d26;
+}
+
+.box {
+    width: 600px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.info_box {
+    width: 600px;
+    height: 50px;
+    align-content: center;
+    vertical-align: center;
+    display: block;
+}
+
+.input_experts {
+    border: 0;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    height: 100%;
+    background-color: #252733;
+    color: #7b7b84;
+}
+
+button:hover {
+    background-color: #7b7b84;
+    color: white;
+}
+
+button:disabled {
+    background-color: #252733;
+}
+
+button:disabled:hover {
+    color: #7b7b84;
+}
+
+button:focus {
+    outline: #7b7b84 solid 1px;
+    background-color: #7b7b84;
+    color: white;
+}
+
+button:focus {
+    background-color: #6d5dd3;
+}
+
+button:focus:active {
+    background-color: #6d5dd3;
+}
+
+.box_button {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(109, 93, 211, 1);
+    color: white;
+}
+
+.box_button:hover {
+    background-color: rgba(127, 114, 211, 1);
+    color: white;
+}
+
+.message {
+    font-size: 14pt;
+    color: #ff2574;
+    margin-top: 10px;
+    align-content: center;
+    vertical-align: center;
+}
+
+#result_box {
+    position: absolute;
+    width: 30%;
+    height: 350px;
+    margin-left: 35%;
+    top: 200px;
+    background-color: rgba(24, 24, 32, 1);
+}
+
+.result_pair {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    font-size: 0;
+}
+
+.result {
+    display: inline-block;
+    position: relative;
+    box-sizing: content-box;
+    width: 50%;
+    height: 300px;
+    align-content: center;
+    text-align: center;
+    vertical-align: center;
+    color: white;
+}
+
+h1 {
+    margin: auto;
+    text-wrap: normal;
+}
